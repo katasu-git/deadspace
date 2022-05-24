@@ -4,7 +4,9 @@ import { Layout } from "../components";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="text-green-600">dead space</div>
+      <div className="flex justify-center items-center text-red-600 h-full">
+        dead space
+      </div>
     </Layout>
   );
 };
