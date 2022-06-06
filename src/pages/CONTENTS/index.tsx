@@ -1,6 +1,6 @@
 import { Layout } from "../../components/templates/layout";
 
-const TOP = () => {
+const Contents = () => {
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center h-full">
@@ -15,4 +15,4 @@ const TOP = () => {
   );
 };
 
-export default TOP;
+export default Contents;

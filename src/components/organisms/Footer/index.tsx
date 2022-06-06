@@ -5,7 +5,9 @@ const Footer: React.FC = () => {
     <footer className="flex flex-row justify-center items-center h-16">
       <Link href="/">TOP</Link>
       <p className="mx-2">/</p>
-      <Link href="/CONTENTS">CONTENTS</Link>
+      <Link href="/contents">CONTENTS</Link>
+      <p className="mx-2">/</p>
+      <Link href="/power_word">POWER WORD</Link>
     </footer>
   );
 };
