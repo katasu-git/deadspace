@@ -1,6 +1,7 @@
+import type { NextPage } from "next";
 import { Layout } from "../../components/templates/layout";
 
-const Contents = () => {
+const Contents: NextPage = () => {
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center h-full">

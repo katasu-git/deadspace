@@ -1,7 +1,8 @@
+import type { NextPage } from "next";
 import { Layout } from "../../components/templates/layout";
 import { History } from "../../../Resources/History";
 
-const PowerWord = () => {
+const PowerWord: NextPage = () => {
   const PowerWords = History.map((h) => {
     const year = h.year;
     const contents = h.contents.map((content) => {
@@ -24,7 +25,6 @@ const PowerWord = () => {
     <Layout>
       <div className="text-4xl font-bold">
         <p>POWER WORD and MINUTES</p>
-        <p></p>
       </div>
       <div className="flex flex-col justify-start items-start h-full">
         <div className="flex flex-col items-start">
